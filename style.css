@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "Avant";
+	src: url(fonts/AVANTN.ttf);
+}
+
+.body {
+	background-color: blue;
+}
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0);
+	z-index: 20;
+}
+
+.navbar-toggler {
+	z-index: 30;
+}
+
+.slider {
+	position: relative;
+	top: -70px;
+}
+
+.page_top {
+	border: 15px solid white;
+}
+
+a.nav-link {
+	color: black;
+	font-family: 'Avant';
+	font-size: 9pt;
+	letter-spacing: 3pt;
+}
+
+a.navbar-brand {
+	color: black;
+	letter-spacing: 2pt;
+}
+
+.nav-link:hover, .nav-brand:hover {
+	color: #446e2f;
+}
+
+.sub-item {
+	border: 1px solid black;
+}
+
+.nav-item {
+	margin: 0px 10px 0px 10px;
+	float: right;
+}
+
+.navbar-nav {
+  float: right !important;
+}
+
+h1.slide_title {
+	font-weight: normal;
+	letter-spacing: 3pt;
+	font-size: 5em;
+}
+
+.slide_title, .slide_content {
+	color: black;
+}
+
+hr {
+	width: 50px;
+	height: 3px;
+	background-color: #212121;
+}
+
+.carousel-item {
+	height: 600px;
+}
+
+.carousel-item img {
+	height: 100%;
+	width: 100%;
+}
