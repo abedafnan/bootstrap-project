@@ -4,7 +4,7 @@
 }
 
 .body {
-	background-color: blue;
+	background-color: #ccd7ca;
 }
 
 .navbar {
@@ -77,4 +77,64 @@ hr {
 .carousel-item img {
 	height: 100%;
 	width: 100%;
+}
+
+.row div {
+	padding: 0px;
+}
+
+.card {
+	margin: 20px;
+}
+
+.card .card-body {
+	padding: 15px;
+}
+
+.card .card-body p {
+	font-family: Avant;
+}
+
+.media {
+	background-color: white;
+	clear: right;
+}
+
+.media img {
+	height: 600px;
+	width: 600px;
+}
+
+.media h4 {
+	text-align: center;
+	letter-spacing: 1pt;
+}
+
+.media p {
+	text-align: justify;
+	/*text-align-last: center;*/
+	line-height: 2em;
+	font-weight: normal;
+	padding: 40px 100px;
+}
+
+.footer-nav ul {
+	list-style-type: none;
+}
+
+.footer-nav ul li {
+	float: right;
+	margin: 30px;
+}
+
+a.foot-link {
+	color: black;
+	font-family: 'Avant';
+	font-size: 9pt;
+	letter-spacing: 3pt;
+}
+
+a.foot-link:hover {
+	color: #446e2f;
+	text-decoration: none;
 }
