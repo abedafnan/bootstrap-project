@@ -3,30 +3,25 @@
 	src: url(fonts/AVANTN.ttf);
 }
 
-.body {
-	background-color: #ccd7ca;
+body {
+	background-color: #f1f0ec;
 }
 
 .navbar {
 	background-color: rgba(0, 0, 0, 0);
 	z-index: 20;
-}
-
-.navbar-toggler {
-	z-index: 30;
-}
-
-.slider {
-	position: relative;
-	top: -70px;
+	position: fixed;
+	top: 20px;
+	padding-right: 60px;
 }
 
 .page_top {
 	border: 15px solid white;
+	margin-bottom: 50px;
 }
 
 a.nav-link {
-	color: black;
+	color: black !important;
 	font-family: 'Avant';
 	font-size: 9pt;
 	letter-spacing: 3pt;
@@ -35,39 +30,47 @@ a.nav-link {
 a.navbar-brand {
 	color: black;
 	letter-spacing: 2pt;
+	font-weight: bold;
 }
 
 .nav-link:hover, .nav-brand:hover {
-	color: #446e2f;
+	color: #446e2f !important;
 }
 
 .sub-item {
 	border: 1px solid black;
+	padding: 0px 10px;
 }
 
 .nav-item {
 	margin: 0px 10px 0px 10px;
-	float: right;
 }
 
-.navbar-nav {
-  float: right !important;
+.carousel-caption {
+	position: absolute;
+	top: 150px;
+	z-index: 10;
 }
 
 h1.slide_title {
 	font-weight: normal;
 	letter-spacing: 3pt;
-	font-size: 5em;
+	font-size: 7em;
+}
+
+p.slide_content {
+	font-size: 1.5em;
+	letter-spacing: 1pt;
 }
 
 .slide_title, .slide_content {
-	color: black;
+	color: #323232;
 }
 
 hr {
 	width: 50px;
 	height: 3px;
-	background-color: #212121;
+	background-color: #616161;
 }
 
 .carousel-item {
@@ -75,7 +78,9 @@ hr {
 }
 
 .carousel-item img {
-	height: 100%;
+	/*height: 100%;*/
+	position: absolute;
+	/*left: -20px;*/
 	width: 100%;
 }
 
@@ -83,8 +88,14 @@ hr {
 	padding: 0px;
 }
 
+.heading-table {
+	text-align: center;
+	letter-spacing: 1pt;
+}
+
 .card {
 	margin: 20px;
+	box-shadow: 0px 5px 10px gray;
 }
 
 .card .card-body {
@@ -93,6 +104,13 @@ hr {
 
 .card .card-body p {
 	font-family: Avant;
+	text-align: center;
+
+}
+
+.card-link {
+	color: black;
+	text-decoration: none;
 }
 
 .media {
