@@ -4,7 +4,8 @@
 }
 
 body {
-	background-color: #f1f0ec;
+	/*background-color: #f1f0ec;*/
+	background-color: #dfe4de;
 }
 
 .navbar {
@@ -131,14 +132,19 @@ hr {
 	text-decoration: none;
 }
 
+.card-link:hover {
+	color: #446e2f;
+}
+
 .media {
+	height: 600px;
 	background-color: white;
 	clear: right;
 	margin-top: 130px;
 }
 
 .media img {
-	height: 600px;
+	height: 100%;
 	width: 600px;
 }
 
@@ -172,9 +178,9 @@ hr {
 	font-family: 'Avant';
 	font-size: 8pt;
 	letter-spacing: 1px;
-	border: 1px solid white;
+	border: 2px solid white;
 	border-radius: 0px;
-	background-color: #f5f5f5;
+	background-color: #eff1ee;
 	padding: 15px;
 	color: #bdbdbd;
 }
@@ -195,6 +201,10 @@ hr {
 	letter-spacing: 3pt;
 }
 
+.btn:hover {
+	color: #446e2f;
+}
+
 section.footer {
 	background-color: white;
 }
@@ -205,7 +215,10 @@ section.footer {
 
 .footer-nav ul li {
 	float: right;
-	margin: 30px;
+}
+
+.footer-nav ul .norm {
+	margin: 0px 50px 0px 0px;
 }
 
 a.foot-link {
@@ -218,4 +231,21 @@ a.foot-link {
 a.foot-link:hover {
 	color: #446e2f;
 	text-decoration: none;
+}
+
+.fab {
+	height: 30px;
+	width: 30px;
+	color: white;
+	background-color: #323232;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.mr-md-5, .mx-md-5 {
+	margin-right: 1rem !important;
+}
+
+.col {
+	margin-top: 25px;
 }
