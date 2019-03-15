@@ -2,10 +2,14 @@
 <html>
 <head>
 	<title>Bootstrap Project</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 </head>
 <body>
 	<section class="page_top">
@@ -38,7 +42,7 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img src="images/img4-flipped.jpg" class="d-block w-100" alt="slider image not found">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-block">
 								<h1 class="slide_title">LOMBOK</h1>
 								<p class="slide_content">HOLISTIC HEALTH</p>
 								<hr>
@@ -46,7 +50,7 @@
 						</div>
 						<div class="carousel-item">
 							<img src="images/img2.jpg" class="d-block w-100" alt="slider image not found">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-block">
 								<h1 class="slide_title">LOMBOK</h1>
 								<p class="slide_content">HOLISTIC HEALTH</p>
 								<hr>
@@ -54,7 +58,7 @@
 						</div>
 						<div class="carousel-item">
 							<img src="images/img3.jpg" class="d-block w-100" alt="slider image not found">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-block">
 								<h1 class="slide_title">LOMBOK</h1>
 								<p class="slide_content">HOLISTIC HEALTH</p>
 								<hr>
@@ -108,15 +112,13 @@
 	</div>
 
 	<div class="media">
-		<img class="mr-3" src="images/media-img.png" alt="Generic placeholder image">
-		<div class="media-body">
-			<table style="height: 600px;">
-				<tr><th>
-					<h4 class="mt-0">ABOUT</h5>
-					<hr>
-					<p class="media-content"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus, Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
-				</th></tr>
-			</table>
+		<div class="row">
+			<img class="col-lg-6 col-md-12" src="images/media-img.png" alt="Generic placeholder image">
+			<div class="media-body mx-5 my-5 py-5 px-5 col-lg-6 col-md-12">
+				<h4>ABOUT</h5>
+				<hr>
+				<p class="media-content pt-3"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus, Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
+			</div>
 		</div>
 	</div>
 
@@ -168,7 +170,7 @@
 				<div class="row">
 
 					<!-- Grid column -->
-					<div class="col py-5">
+					<div class="col-md-6 col-sm-12 py-5">
 						<div class="mb-3">
 							<!--Instagram-->
 							<a href="#" class="ins-ic">
@@ -191,7 +193,7 @@
 					<!-- Grid column -->
 
 					<!-- Grid column -->
-					<div class="col py-5 footer-nav">   <!-- navbar-collapse --> 
+					<div class="col-md-6 col-sm-12 py-5 footer-nav">   <!-- navbar-collapse --> 
 						<ul>
 							<li class="foot-item">
 								<a class="foot-link" href="#">SUBSCRIBE</a>
@@ -217,6 +219,8 @@
 
 
 </body>
-<script type="text/javascript" src="js/jquery.slim.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.slim.min"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 </html>
